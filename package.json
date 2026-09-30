@@ -2,6 +2,9 @@
   "name": "ibnay-digital-studio",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--max-old-space-size=8192' next dev --turbo",
     "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' next build",
